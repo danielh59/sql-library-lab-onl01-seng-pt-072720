@@ -8,7 +8,7 @@ INSERT INTO books (id, title, year, series_id) VALUES (4, "Harry Potter and the 
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Tywin Lannister", "A lion doesn’t concern himself with the opinions of a sheep", "human", 2, 2), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 2, 2), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 2, 2), (4, "Eddard Stark", "Winter is coming", "human", 2, 2);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Snape", "Always", "human", 1, 1), (6, "Hagrid", "Harry — yer a wizard.", "giant/human", 1, 1), (7, "Luna Lovegood", "Don't worry. You're just as sane as I am.", "human", 1, 1), (8, "Character Four", "motto four", "cylon", 1, 1);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Snape", "Always", "human", 1, 1), (6, "Hagrid", "Harry — yer a wizard.", "giant/human", 1, 1), (7, "Luna Lovegood", "Don't worry. You're just as sane as I am.", "human", 1, 1), (8, "Character Four", "NOT MY DAUGHTER, YOU BITCH.", "cylon", 1, 1);
 
 INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
 
