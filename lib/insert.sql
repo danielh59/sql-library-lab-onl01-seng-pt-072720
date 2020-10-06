@@ -6,7 +6,7 @@ INSERT INTO authors (id, name) VALUES (1, "J. K. Rowling"), (2, "George R. R. Ma
 
 INSERT INTO books (id, title, year, series_id) VALUES (4, "Harry Potter and the Chamber of Secrets", 1998, 1), (5, "Harry Potter and the Prisoner of Azkaban", 1999, 1), (6, "Harry Potter and the Half-Blood Prince", 2005, 1), (4, "Game of Thrones", 1996, 2), (5, "A Clash of Kings", 1998, 12, (6, "A Storm of Swords", 2000, 2);
 
-INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Tywin Lannister", "Woof Woof", "direwolf", 1, 2), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 1, 2), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 2), (4, "Eddard Stark", "Winter is coming", "human", 1, 2);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Tywin Lannister", "Woof Woof", "human", 1, 2), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 1, 2), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 2), (4, "Eddard Stark", "Winter is coming", "human", 1, 2);
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Character One", "motto one", "cylon", 2, 2), (6, "Character Two", "motto two", "human", 2, 2), (7, "Character Three", "motto three", "cylon", 2, 2), (8, "Character Four", "motto four", "cylon", 2, 2);
 
