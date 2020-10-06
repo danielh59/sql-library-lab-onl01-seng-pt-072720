@@ -4,7 +4,7 @@ INSERT INTO subgenres (id, name) VALUES (1, "Fantasy Fiction"), (2, "Medieval");
 
 INSERT INTO authors (id, name) VALUES (1, "J. K. Rowling"), (2, "George R. R. Martin");
 
-INSERT INTO books (id, title, year, series_id) VALUES (1, "Harry Potter and the Chamber of Secrets", 1998, 1), (2, "Harry Potter and the Prisoner of Azkaban", 1999, 1), (3, "Harry Potter and the Half-Blood Prince", 2005, 1), (4, "Game of Thrones", 1996, 2), (5, "A Clash of Kings", 1998, 12,) (6, "A Storm of Swords", 2000, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (1, "Harry Potter and the Chamber of Secrets", 1998, 1), (2, "Harry Potter and the Prisoner of Azkaban", 1999, 1), (3, "Harry Potter and the Half-Blood Prince", 2005, 1), (4, "Game of Thrones", 1996, 2), (5, "A Clash of Kings", 1998, 12,), (6, "A Storm of Swords", 2000, 2);
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Snape", "Always", "human", 1, 1), (2, "Hagrid", "Harry — yer a wizard.", "giant/human", 1, 1), (3, "Luna Lovegood", "Don't worry. You're just as sane as I am", "human", 1, 1), (4, "Molly Weasley", "NOT MY DAUGHTER, YOU BITCH", "human", 1, 1);
 
