@@ -4,7 +4,7 @@ INSERT INTO subgenres (id, name) VALUES (1, "Fantasy Fiction"), (2, "Medieval");
 
 INSERT INTO authors (id, name) VALUES (1, "J. K. Rowling"), (2, "George R. R. Martin");
 
-INSERT INTO books (id, title, year, series_id) VALUES (4, "Harry Potter and the Chamber of Secrets", 1998, 1), (5, "Second Book", 2003, 1), (6, "Third Book", 2005, 1), (4, "Game of Thrones", 1996, 2), (5, "A Clash of Kings", 1998, 12, (6, "A Storm of Swords", 2000, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (4, "Harry Potter and the Chamber of Secrets", 1998, 1), (5, "Harry Potter and the Prisoner of Azkaban", 2003, 1), (6, "Third Book", 2005, 1), (4, "Game of Thrones", 1996, 2), (5, "A Clash of Kings", 1998, 12, (6, "A Storm of Swords", 2000, 2);
 
 INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Lady", "Woof Woof", "direwolf", 1, 1), (2, "Tyrion Lanister", "A Lanister always pays is debts", "human", 1, 1), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 1), (4, "Eddard Stark", "Winter is coming", "human", 1, 1);
 
